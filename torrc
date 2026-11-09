@@ -1,0 +1,7 @@
+SocksPort 127.0.0.1:9050
+ControlPort 127.0.0.1:9051
+SocksPolicy accept 127.0.0.1
+SocksPolicy reject *
+DataDirectory /var/lib/tor
+Log notice stdout
+ClientOnly 1
